@@ -1,0 +1,91 @@
+.container-ltr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+
+  &__left {
+    .intro-message {
+      color: var(--primary-font-color);
+      font-weight: bold;
+      font-size: 40px;
+    }
+    p {
+      font-size: 28px;
+    }
+  }
+  &__right {
+    .hero-img {
+      animation: float 0.9s ease-in infinite alternate both;
+    }
+  }
+}
+
+.container-rtl {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+  &__left {
+    .timer-img {
+      animation: shake-lr 0.9s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1000ms
+        both;
+    }
+    .rocket-girl-img {
+      animation: float 0.9s ease-in infinite alternate both;
+    }
+  }
+  &__right {
+    p {
+      font-size: 28px;
+    }
+    .timer-p {
+      font-weight: bold;
+      span {
+        font-weight: 400;
+      }
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// .content {
+//   width: 50%;
+//   margin-top: 2rem;
+
+//   p {
+//     font-size: 20px;
+//     color: #5f5e64;
+//     margin-bottom: 0.6rem;
+//   }
+// }
+
+.heading {
+  color: var(--primary-font-color);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 46px;
+  position: relative;
+
+  span {
+    z-index: -1;
+    color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f6e8ca;
+    height: 1rem;
+    width: fit-content;
+  }
+}
+
+.button {
+  background-color: var(--primary-color);
+  padding: 0.6rem 1rem;
+  color: #ffffff;
+  border-radius: 8px;
+  width: fit-content;
+  margin-top: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
