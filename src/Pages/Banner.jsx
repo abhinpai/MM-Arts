@@ -14,7 +14,12 @@ const Banner = () => {
             whileTap={{ scale: 0.9 }}
             className='button'
           >
-           <a href="https://api.whatsapp.com/send?phone=0000000000">Contact Us</a>
+            <a
+              href='https://api.whatsapp.com/send?phone=0000000000'
+              target='_blank'
+            >
+              Contact Us
+            </a>
           </motion.div>
         </div>
         <div className='container-ltr__right'>

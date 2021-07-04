@@ -11,3 +11,16 @@ export const pageVariants = {
     transition,
   },
 };
+
+export const mobilePageVariants = {
+  initial: {
+    y: '-10%',
+    opacity: 0,
+    transition,
+  },
+  enter: {
+    y: '0%',
+    opacity: 1,
+    transition,
+  },
+};

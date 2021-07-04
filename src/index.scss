@@ -64,6 +64,12 @@ body {
     padding: 1rem !important;
     overflow-y: auto;
   }
+
+  .logo {
+    height: 22px;
+    text-align: center;
+    width: 100%;
+  }
   .container-ltr {
     &__left {
       .intro-message {
@@ -104,6 +110,7 @@ body {
   }
 
   .container-rtl {
+    justify-content: space-between;
     &__left {
       .timer-img {
         height: 140px;

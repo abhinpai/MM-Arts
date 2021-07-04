@@ -5,7 +5,6 @@ import useCheckIsMobile from '../utils/useCheckIsMobile';
 
 const MotionPage = ({ children }) => {
   const isMobile = useCheckIsMobile();
-  console.log(isMobile);
   return isMobile ? (
     <main>{children}</main>
   ) : (

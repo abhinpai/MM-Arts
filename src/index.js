@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/Common.scss';
 import reportWebVitals from './reportWebVitals';
@@ -11,12 +11,12 @@ import Timings from './Pages/Timings';
 import { AnimatePresence } from 'framer-motion';
 import Header from './Components/Header';
 import Offer from './Pages/Offer';
-import Mobile from './Pages/Mobile';
+import MobileView from './Pages/MobileView';
 import useCheckIsMobile from './utils/useCheckIsMobile';
 
 const Views = () => {
   return useCheckIsMobile() ? (
-    <Mobile />
+    <MobileView />
   ) : (
     <Router>
       <Header />
