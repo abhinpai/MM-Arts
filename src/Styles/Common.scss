@@ -49,17 +49,6 @@
   }
 }
 
-// .content {
-//   width: 50%;
-//   margin-top: 2rem;
-
-//   p {
-//     font-size: 20px;
-//     color: #5f5e64;
-//     margin-bottom: 0.6rem;
-//   }
-// }
-
 .heading {
   color: var(--primary-font-color);
   font-weight: bold;
@@ -88,4 +77,9 @@
   margin-top: 1rem;
   cursor: pointer;
   user-select: none;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }

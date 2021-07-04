@@ -58,3 +58,80 @@ body {
     transform: translateY(10px);
   }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    padding: 1rem !important;
+    overflow-y: auto;
+  }
+  .container-ltr {
+    &__left {
+      .intro-message {
+        font-size: 20px !important;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    &__right {
+      img {
+        height: 160px !important;
+      }
+    }
+  }
+
+  .about-mobile {
+    margin-top: 0 !important;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .gallery-mobile {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .imageSlides {
+    height: 280px !important;
+    width: 92vw !important;
+
+    .gallery-img {
+      height: 280px !important;
+      width: 92vw !important;
+    }
+  }
+
+  .container-rtl {
+    &__left {
+      .timer-img {
+        height: 140px;
+      }
+      .rocket-girl-img {
+        height: 160px;
+      }
+    }
+    &__right {
+      p {
+        font-size: 14px;
+      }
+      .timer-p {
+      }
+    }
+  }
+
+  .offer {
+    &__list {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+      &-item {
+        img {
+          height: 100px !important;
+        }
+        p {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}

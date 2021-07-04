@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/Common.scss';
 import reportWebVitals from './reportWebVitals';
@@ -9,11 +9,15 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Gallery from './Pages/Gallery';
 import Timings from './Pages/Timings';
 import { AnimatePresence } from 'framer-motion';
-import Header from './Pages/Header';
+import Header from './Components/Header';
 import Offer from './Pages/Offer';
+import Mobile from './Pages/Mobile';
+import useCheckIsMobile from './utils/useCheckIsMobile';
 
-ReactDOM.render(
-  <React.StrictMode>
+const Views = () => {
+  return useCheckIsMobile() ? (
+    <Mobile />
+  ) : (
     <Router>
       <Header />
       <Route
@@ -31,6 +35,12 @@ ReactDOM.render(
         )}
       />
     </Router>
+  );
+};
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Views />
   </React.StrictMode>,
   document.getElementById('root')
 );

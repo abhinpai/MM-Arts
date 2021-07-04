@@ -5,11 +5,11 @@ import MotionPage from './MotionPage';
 const About = () => {
   return (
     <MotionPage>
-      <section className='container-rtl' style={{ alignItems: 'flex-start' }}>
+      <section className='container-rtl ' style={{ alignItems: 'flex-start' }}>
         <div className='container-rtl__left'>
           <img className="rocket-girl-img" src={RocketGirl} alt='About us' />
         </div>
-        <div className='container-rtl__right' style={{ marginTop: '3rem' }}>
+        <div className='container-rtl__right about-mobile' style={{ marginTop: '3rem' }}>
           <h1 className='heading'>
             About Us
             <span>About Us</span>

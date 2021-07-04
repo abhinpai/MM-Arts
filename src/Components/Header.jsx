@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header className='header'>
-      <Link to="/" className='header__left'>
+      <Link to='/' className='header__left'>
         <img src={Logo} alt='MM Arts' />
       </Link>
       <div className='header__right'>
@@ -14,7 +14,7 @@ const Header = () => {
         <Link to='/offer'>What we offer</Link>
         <Link to='/gallery'>Gallery</Link>
         <Link to='/timings'>Timing</Link>
-        <Link to='/'>Enquiry</Link>
+        {/* <Link to='/'>Enquiry</Link> */}
       </div>
     </header>
   );

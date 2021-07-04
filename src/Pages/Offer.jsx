@@ -35,19 +35,17 @@ const Offer = () => {
           <span>What We Offer</span>
         </h1>
         <div className='offer__list'>
-          {offers.map((item, index) => {
-            return (
-              <mdiv className='offer__list-item'>
-                <motion.img
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  src={item.img}
-                  alt=''
-                />
-                <p>{item.description}</p>
-              </mdiv>
-            );
-          })}
+          {offers.map((item, index) => (
+            <div key={index} className='offer__list-item'>
+              <motion.img
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                src={item.img}
+                alt=''
+              />
+              <p>{item.description}</p>
+            </div>
+          ))}
         </div>
       </section>
     </MotionPage>

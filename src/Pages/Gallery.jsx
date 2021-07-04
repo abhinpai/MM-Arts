@@ -6,7 +6,7 @@ import MotionPage from '../Pages/MotionPage';
 const Gallery = () => {
   return (
     <MotionPage>
-      <section className='container-ltr' style={{ alignItems: 'flex-start' }}>
+      <section className='container-ltr gallery-mobile' style={{ alignItems: 'flex-start' }}>
         <div className='container-ltr__left'>
           <h1 className='heading'>
             Those Happy faces
