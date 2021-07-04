@@ -6,8 +6,8 @@ import { Link, useLocation } from 'react-router-dom';
 const Links = [
   { path: '/about', label: 'About Us' },
   { path: '/offer', label: 'What we offer' },
-  { path: '/timings', label: 'Gallery' },
-  { path: '/gallery', label: 'Timing' },
+  { path: '/gallery', label: 'Gallery' },
+  { path: '/timings', label: 'Timing' },
 ];
 
 const Header = () => {
