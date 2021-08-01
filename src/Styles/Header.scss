@@ -5,8 +5,11 @@
   width: 100%;
 
   &__left {
+    position: relative;
     img {
-      height: 16px;
+      top: -2rem;
+      height: 80px;
+      position: absolute;
     }
   }
 
@@ -22,11 +25,6 @@
       &:not(:last-child) {
         margin-right: 1rem;
       }
-
-      // &:last-child {
-      //   color: var(--primary-color);
-      //   font-weight: bold;
-      // }
     }
   }
 }

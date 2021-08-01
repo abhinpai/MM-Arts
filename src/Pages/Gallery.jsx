@@ -5,21 +5,112 @@ import MotionPage from '../Pages/MotionPage';
 import { wrap } from 'popmotion';
 import { AnimatePresence, motion } from 'framer-motion';
 
+import img1 from '../Assets/images/1.jpeg';
+import img2 from '../Assets/images/2.jpeg';
+import img3 from '../Assets/images/3.jpeg';
+import img4 from '../Assets/images/4.jpeg';
+import img5 from '../Assets/images/5.jpeg';
+import img6 from '../Assets/images/6.jpeg';
+import img7 from '../Assets/images/7.jpeg';
+import img8 from '../Assets/images/8.jpeg';
+import img9 from '../Assets/images/9.jpeg';
+import img10 from '../Assets/images/10.jpeg';
+import img11 from '../Assets/images/11.jpeg';
+import img12 from '../Assets/images/12.jpeg';
+import img13 from '../Assets/images/13.jpeg';
+import img14 from '../Assets/images/14.jpeg';
+import img15 from '../Assets/images/15.jpeg';
+import img16 from '../Assets/images/16.jpeg';
+import img17 from '../Assets/images/17.jpeg';
+import img18 from '../Assets/images/18.jpeg';
+import img19 from '../Assets/images/19.jpeg';
+import img20 from '../Assets/images/20.jpeg';
+import img21 from '../Assets/images/21.jpeg';
+
 export const images = [
   {
-    image:
-      'https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png',
-    describe: 'Some event 1',
+    image: img1,
+    describe: 'The workshop of the welcome board',
   },
   {
-    image:
-      'https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png',
-    describe: 'Some event 2',
+    image: img2,
+    describe: 'The cute tiny papper table lamp workshop',
   },
   {
-    image:
-      'https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png',
-    describe: 'Some event 3',
+    image: img3,
+    describe: 'Father days special, Greeting card to my life super hero',
+  },
+  {
+    image: img4,
+    describe: 'Father days special, Greeting card to my life super hero',
+  },
+  {
+    image: img5,
+    describe: 'The cute greeting cards workshop',
+  },
+  {
+    image: img6,
+    describe: 'A crazy art by the old CD caset workshop',
+  },
+  {
+    image: img7,
+    describe: 'Save Tree, Save Mother Earth. The paper bag workshop',
+  },
+  {
+    image: img8,
+    describe: 'Shakalaka Boom Boom, A pencil top workshop',
+  },
+  {
+    image: img9,
+    describe: 'A cute abstract notes bookmark workshop',
+  },
+  {
+    image: img10,
+    describe: 'A cute abstract notes bookmark workshop',
+  },
+  {
+    image: img11,
+    describe: 'My life soldier, Mother Days Special. papper Bouquet workshop',
+  },
+  {
+    image: img12,
+    describe: 'Cute papper flower pot workshop',
+  },
+  {
+    image: img13,
+    describe: 'Orgimai of cute dog',
+  },
+  {
+    image: img14,
+    describe: 'The tiny cute pet face pencil/pen stand workshop',
+  },
+  {
+    image: img15,
+    describe: 'Animal faced bookmark workshop',
+  },
+  {
+    image: img16,
+    describe: 'The happy earth bookmark workshop',
+  },
+  {
+    image: img17,
+    describe: 'Cute papper flower pot workshop',
+  },
+  {
+    image: img18,
+    describe: 'Satarangi (Rainbow) greeting card',
+  },
+  {
+    image: img19,
+    describe: 'Mother day special, Pop-Up greeting card special',
+  },
+  {
+    image: img20,
+    describe: 'An beautiful flower with a tissue paper workshop',
+  },
+  {
+    image: img21,
+    describe: 'The paper sun flower workshop',
   },
 ];
 

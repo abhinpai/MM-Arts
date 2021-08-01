@@ -8,14 +8,14 @@ const Banner = () => {
     <MotionPage>
       <section className='container-ltr'>
         <div className='container-ltr__left'>
-          <p className='intro-message'> SOME BEAUTIFUL QUOTE ABOUT ARTS</p>
+          <p className='intro-message'> MM Arts, Place where i teach your kids to be more creative and colorfull</p>
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className='button'
           >
             <a
-              href='https://api.whatsapp.com/send?phone=0000000000'
+              href='https://api.whatsapp.com/send?phone=+918600213560'
               target='_blank'
             >
               Contact Us

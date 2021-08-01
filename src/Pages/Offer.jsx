@@ -10,19 +10,23 @@ import MotionPage from './MotionPage';
 const offers = [
   {
     img: PuzzelImg,
+    label: 'Fine Motor Skills',
     description: 'Some better desc',
   },
   {
     img: TowerImg,
+    label: 'Gross Motor Skills',
     description: 'Some better desc',
   },
   {
     img: RocketImg,
-    description: 'Some better desc',
+    label: 'No Limit For Fun',
+    description: 'There is not limit for enjoyment while learning',
   },
   {
     img: BulbImg,
-    description: 'Some better desc',
+    label: 'Innovative Ideas',
+    description: 'Help to turn out the innovative ideas into the reality',
   },
 ];
 
@@ -31,8 +35,8 @@ const Offer = () => {
     <MotionPage>
       <section className='offer'>
         <h1 className='heading'>
-          What We Offer
-          <span>What We Offer</span>
+          What i teach
+          <span>What i teach</span>
         </h1>
         <div className='offer__list'>
           {offers.map((item, index) => (
@@ -43,7 +47,8 @@ const Offer = () => {
                 src={item.img}
                 alt=''
               />
-              <p>{item.description}</p>
+              <p>{item.label}</p>
+              <span>{item.description}</span>
             </div>
           ))}
         </div>
