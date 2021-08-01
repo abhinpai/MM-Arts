@@ -29,7 +29,6 @@ const Views = () => {
               <Route exact path='/about' component={About} />
               <Route exact path='/offer' component={Offer} />
               <Route exact path='/gallery' component={Gallery} />
-              <Route exact path='/timings' component={Timings} />
             </Switch>
           </AnimatePresence>
         )}

@@ -20,7 +20,6 @@ const MobileView = () => {
       <About />
       <Offer />
       <Gallery />
-      <Timings />
     </motion.div>
   );
 };
